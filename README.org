@@ -1,0 +1,8 @@
+Defines a class =bolParser= which identifies the bol based on the hard
+coded taal dictionary. This is an arbitrary design decision, and can be 
+stored as a json if it has to be accessed by other modules.
+
+When a =bolParser= object is initialized with a string defining 
+a tukda, the string is parsed and the taal is identified, and the individual
+akshars, vibhaags, and avartans are stored.
+
